@@ -29,6 +29,10 @@ const TodoList = ({ todos }) => (
 // export default connect((state) => ({ todos: getTodos(state) }))(TodoList);
 
 // get filter info
-export default connect((state) => ({
-  todos: getTodosByVisibilityFilter(state, state.visibilityFilters),
-}))(TodoList);
+const mapStateToProps = (state) => {
+  const { visibilityFilter } = state;
+  const todos = getTodosByVisibilityFilter(state, visibilityFilter);
+  return { todos };
+};
+
+export default connect(mapStateToProps)(TodoList);

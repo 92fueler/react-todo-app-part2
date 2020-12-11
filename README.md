@@ -4,17 +4,17 @@
 
 ## Overview
 
-This is a mini Frontend-only React app to track daily todo list. The purpose of the app is to learn React Redux. The idea and the code about how to build from scratch actually come from the official [React Redux website](https://codesandbox.io/s/9on71rvnyo). There are some changes made due to the personal preferences. 
+This is a mini Frontend-only React app to track daily todo list. The purpose of the app is to learn React Redux. The idea and the code about how to build from scratch actually come from the official [React Redux website](https://codesandbox.io/s/9on71rvnyo). There are some changes made due to the personal preferences.
 
 Please notice that Redux and React Redux are two different things. If you want to know how to build a Todo App with Redux only, please check out my other project [here](https://github.com/92fueler/react-todo-app-part3).
 
 ## Tech Stack
 
-| Tech        | Description                                                  |
-| ----------- | ------------------------------------------------------------ |
-| React       | a JavaScript library for building user interfaces            |
-| React Redux | the offical Redux UI binding library for React               |
-| classnames  | a simple JavaScript utility for conditionally joining classNames together |
+| Tech        | Description                                                        |
+| ----------- | ------------------------------------------------------------------ |
+| React       | a JavaScript library for building user interfaces                  |
+| React Redux | the offical Redux UI binding library for React                     |
+| classnames  | a JavaScript utility for conditionally joining classNames together |
 
 ## The React UI Components
 
